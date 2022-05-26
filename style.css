@@ -8,6 +8,7 @@
     --light-grey: #8a8a8a;
     --secondary: #0061cf85;
     --darkgry: #222222;
+    --darkred: #c70202;
 }
 
 * {
@@ -454,9 +455,18 @@ body {
     margin: 0;
     font-weight: 700;
 }
-.pricing-amount span {
+.pricing-amount .span {
     font-size: 1rem;
     font-weight: 500;
+}
+
+.pricing-amount .off {
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid var(--darkred);
+    color: var(--darkred);
 }
 .pricing-details {
     display: flex;
