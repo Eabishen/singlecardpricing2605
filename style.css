@@ -664,7 +664,7 @@ body {
 }
 @media screen and (max-width: 500px) {
     body {
-        background-image: url(backgroundm.png);
+        background-image: url(background1.png);
     }
     .main-para {
         max-width: 95%;
