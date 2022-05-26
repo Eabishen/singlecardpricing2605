@@ -471,12 +471,20 @@ body {
 .pricing-details {
     display: flex;
     justify-content: space-evenly;
-    margin: 2rem 0rem;
+    margin: 2rem auto;
+    text-align: start;
+    max-width: 80%;
 }
 .pricing-details i {
     margin-right: 1rem;
     color: var(--dark-blue);
 }
+
+/* .pricing-details .details_right,
+.pricing-details .details_left {
+    max-width: 60%;
+} */
+
 .buy-btn {
     text-decoration: none;
     font-size: 1rem;
@@ -687,6 +695,10 @@ body {
     }
     .navbar .logo {
         margin-left: 0;
+    }
+    .pricing-details {
+        max-width: 100%;
+        margin-left: 20px;
     }
 }
 @media screen and (max-width: 1000px) {
